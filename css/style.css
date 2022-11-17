@@ -1,5 +1,29 @@
+/* Reset */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+
+/* Regole generali */
+body {
+    height: 100vh;
+}
+
+/* Header */
+header {
+    background-color: lightblue;
+    border: 2px dashed black;
+}
+
+/* Main */
+main {
+    background-color: lightcoral;
+    border: 2px dashed black;
+}
+
+/* Footer */
+footer {
+    background-color: lightgreen;
+    border: 2px dashed black;
 }
