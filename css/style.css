@@ -8,26 +8,24 @@
 /* Regole generali */
 body {
     height: 100vh;
-    font-family: Arial, Helvetica, sans-serif;
 }
 
 /* Header */
 header {
     background-color: black;
-    position: fixed;
+    position: relative;
     width: 100%;
     top: 0;
-    left: 0;
 }
 
 .speaker {
     text-align: end;
-    padding: 5px;
+    padding: 10px;
 }
 
 .speaker > * {
-    font-size: 15px;
-    padding: 5px;
+    font-size: 16px;
+    padding: 7px;
     text-decoration: none;
     background-color: #4a4a4a;
     color: white;
@@ -37,14 +35,40 @@ header {
 
 /* Main */
 main {
-    background-color: lightcoral;
-    border: 2px dashed black;
-    padding-top: 40px;
+    background-color: black;
     padding: 20px;
 }
 
 .box-main {
+    width: 1300px;
+    margin: 0 auto;
     border: 2px dashed black;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+img {
+    width: 100%;
+}
+
+.card {
+    border: 2px dashed black;
+    width: calc(100% / 7);
+    position: relative;
+    margin-bottom: 10px;
+}
+
+.name {
+    position: absolute;
+    bottom: 4px;
+    left: 0px;
+    background-color: rgba(98,111,124,0.5);
+    padding: 5px;
+    font-size: 13px;
+    font-weight: bold;
+    color: white;
+    
 }
 
 /* Footer */
