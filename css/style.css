@@ -73,8 +73,7 @@ img {
 
 /* Footer */
 footer {
-    background-color: lightgreen;
-    border: 2px dashed black;
+    background-color: #222222;
     position: sticky;
     bottom: 0;
     width: 100%;
@@ -97,11 +96,24 @@ footer {
     padding-left: 5px;
 }
 
+.chevron-up {
+    font-size: 10px;
+    margin: 10px 20px;
+}
+
 .box-center {
     max-width: 60%;
     display: flex;
     color: white;
     text-align: center;
+}
+
+.box-invite {
+    margin: 0px 8px;
+}
+
+.share-green {
+    color: green;
 }
 
 .box-dx {
