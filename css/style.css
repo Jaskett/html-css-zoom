@@ -39,6 +39,12 @@ header {
 main {
     background-color: lightcoral;
     border: 2px dashed black;
+    padding-top: 40px;
+    padding: 20px;
+}
+
+.box-main {
+    border: 2px dashed black;
 }
 
 /* Footer */
